@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "pm2 start ./pm2.config.js",
+    "kill": "pm2 kill",
+    "monit": "pm2 monit"
+  },
+  "dependencies": {
+    "@tinyhttp/app": "^2.2.3",
+    "pm2": "^5.4.1"
+  }
+}
